@@ -1,4 +1,20 @@
-# [Android] Thread란?
+# [Android] Thread
+
+## Thread 특징
+- 프로세스 내의 정보들의 공유가 쉽다.
+- Thread간 서로 공유하는 자원
+  * 작업디렉토리
+  * 파일지시자들
+  * 대부분의 전역변수와 데이터들
+  * UID, GID
+  * signal
+
+- Thread가 고유하게 가지는 자원
+  * 에러번호(errno)
+  * Thread 우선 순위
+  * 스택
+  * Thread ID
+  * 레지스터 및 스택 지시자
 
 ## Thread 사용법
 ### 1. 작업이 끝난 후 UI 변경이 필요 없는 경우
