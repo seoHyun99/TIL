@@ -21,75 +21,76 @@
 
 ### Template Method Pattern 예시
 
-public abstract class AbstGameConnetHelper {
-       protected abstract String doSecurity(String string);
-       protected abstract boolean authentication(String id, String password);
-       protected abstract int authorization(String userName);
-       protected abstract String connetion(String info);
+    public abstract class AbstGameConnetHelper {
+           protected abstract String doSecurity(String string);
+           protected abstract boolean authentication(String id, String password);
+           protected abstract int authorization(String userName);
+           protected abstract String connetion(String info);
 
-       //템플릿 메소드
-       public String requestConnetion(String encodedInfo) {
-              //보안 작업 -> 암호화 된 문자열을 복호화
-              String decodedInfo = doSecurity(str);
+           //템플릿 메소드
+           public String requestConnetion(String encodedInfo) {
+                  //보안 작업 -> 암호화 된 문자열을 복호화
+                  String decodedInfo = doSecurity(str);
 
-              //반환된 것을 가지고 아이디, 암호를 할당한다.
-              String id = "id";
-              String password = "pw";
+                  //반환된 것을 가지고 아이디, 암호를 할당한다.
+                  String id = "id";
+                  String password = "pw";
 
-              if(!authentication(id, password)) {
-                throw new Error("아이디 암호 불일치");
-              }
+                  if(!authentication(id, password)) {
+                    throw new Error("아이디 암호 불일치");
+                  }
 
-              String userName = "userName";
-              int i = authorization(userName);
+                  String userName = "userName";
+                  int i = authorization(userName);
 
-              switch (i) {
-              case 0: // 게임 매니저
-                     break;
-              case 1: // 유료 회원
-                     break;
-              case 2: // 무료 회원
-                     break;
-              case 3: // 권한 없음
-                     break;
-              default: // 기타 상황
-                     break;
-              }
+                  switch (i) {
+                  case 0: // 게임 매니저
+                         break;
+                  case 1: // 유료 회원
+                         break;
+                  case 2: // 무료 회원
+                         break;
+                  case 3: // 권한 없음
+                         break;
+                  default: // 기타 상황
+                         break;
+                  }
 
-              return connetion();
-       }
-}
+                  return connetion();
+           }
+    }
 
-public class DefaultGameConnetHelper extends AbstGameConnetHelper {
-       @Override
-       protected String doSecurity(String string) {
-              System.out.println("디코드");
-              return string;
-       }
+    public class DefaultGameConnetHelper extends AbstGameConnetHelper {
+           @Override
+           protected String doSecurity(String string) {
+                  System.out.println("디코드");
+                  return string;
+           }
 
-       @Override
-       protected boolean authentication(String id, String password) {
-              System.out.println("아이디/암호 확인 과정");
-              return true; // 맞다고 가정
-       }
+           @Override
+           protected boolean authentication(String id, String password) {
+                  System.out.println("아이디/암호 확인 과정");
+                  return true; // 맞다고 가정
+           }
 
-       @Override
-       protected int authorization(String userName) {
-              System.out.println("권한 확인");
-              return 0;
-       }
+           @Override
+           protected int authorization(String userName) {
+                  System.out.println("권한 확인");
+                  return 0;
+           }
 
-       @Override
        protected String connetion(String info) {
-              System.out.println("마지막 접속단계");
-              return info; // 접속에 필요한 정보 전달
-       }
-}
+             @Override
+                  System.out.println("마지막 접속단계");
+                  return info; // 접속에 필요한 정보 전달
+           }
+    }
 
-public class Main {
-       public static void main(String[] args) {
-              AbstGameConnetHelper helper = new DefaultGameConnetHelper();
+    public class Main {
+           public static void main(String[] args) {
+                  AbstGameConnetHelper helper = new DefaultGameConnetHelper();
 
-              helper.requestConnetion("아이디 암호 등 접속 정보");
-       }
-}
+                  helper.requestConnetion("아이디 암호 등 접속 정보");
+           }
+    }
+    
