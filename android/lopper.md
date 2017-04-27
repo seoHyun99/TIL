@@ -1,6 +1,5 @@
 # [Android] Looper
 
-
 ## Looper란?
 : Looper는 Message Queue에서 Message나 Runnable 객체를 차례로 꺼내 Handler가 처리하도록 전달한다.  
 
