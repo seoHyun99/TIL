@@ -9,12 +9,12 @@
 : 선언은 따로하고 다른 파일에서 구현한다.
 
 #### interface 예시
-    public interface Ainterface() {
+    public interface Ainterface {
          // 기능 선언
          public void funcA();
     }
 
-    public class AinterfaceImpl implements Ainterface() {
+    public class AinterfaceImpl implements Ainterface {
          @Override
          public void funcA() {
               System.out.println("AAA");
@@ -30,32 +30,32 @@
     }
 
 #### Startegy Pattern 예시
-    public interface Weapon() {
+    public interface Weapon {
          public void attack();
     }
 
-    public class Knife implements Weapon() {
+    public class Knife implements Weapon {
          @Override
          public void attack() {
               System.out.println("칼 공격");
          }
     }
 
-    public class Sword implements Weapon() {
+    public class Sword implements Weapon {
          @Override
          public void attack() {
               System.out.println("검 공격");
          }
     }
 
-    public class Ax implements Weapon() {
+    public class Ax implements Weapon {
          @Override
          public void attack() {
               System.out.println("도끼 공격");
          }
     }
 
-    public class GameCharacter() {
+    public class GameCharacter {
          //접근점
          private Weapon weapon;
 
