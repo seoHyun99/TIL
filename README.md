@@ -10,7 +10,7 @@
 
 ### Algorithm
 - [Big O](Algorithm/big-o-notation.md)
-- [DFS(Depth First Search)](Algorithm/depth-first-search.md))
+- [DFS(Depth First Search)](Algorithm/depth-first-search.md)
 
 ### Android
 - [Activity Lifecycle](Android/activity-lifecycle.md)
@@ -22,6 +22,7 @@
 ### Design-Pattern
 - [Adapter Pattern](Design-Pattern/adapter-pattern.md)
 - [Composite Pattern](Design-Pattern/composite-pattern.md)
+- [Factory Method Pattern](Design-Pattern/factory-method-pattern.md)
 - [Singleton Pattern](Design-Pattern/singleton-pattern.md)
 - [Strategy Pattern](Design-Pattern/startegy-pattern.md)
 - [Template Method Pattern](Design-Pattern/template-method-pattern.md)
