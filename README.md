@@ -22,6 +22,7 @@
 ### Design-Pattern
 - [Adapter Pattern](Design-Pattern/adapter-pattern.md)
 - [Composite Pattern](Design-Pattern/composite-pattern.md)
+- [Facade Pattern](Design-Pattern/facade-pattern.md)
 - [Factory Method Pattern](Design-Pattern/factory-method-pattern.md)
 - [Singleton Pattern](Design-Pattern/singleton-pattern.md)
 - [Strategy Pattern](Design-Pattern/startegy-pattern.md)
