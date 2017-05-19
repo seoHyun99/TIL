@@ -21,7 +21,7 @@
 - [Thread](Android/thread.md)
 
 ### Database
-- [MySQL Query Summary](Database/mysql-statement-summary.md)
+- [MySQL Query Summary](Database/mysql-query-statement-summary.md)
 
 ### Design-Pattern
 - [Adapter Pattern](Design-Pattern/adapter-pattern.md)
