@@ -20,6 +20,7 @@
 - [Context](Android/context.md)
 - [Lopper](Android/lopper.md)
 - [Thread](Android/thread.md)
+- [BottomSheet Code](Android/UI-Code/bottom-sheet-code.md)
 
 ### Database
 - [MySQL Query Summary](Database/mysql-query-statement-summary.md)
