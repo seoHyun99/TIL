@@ -18,6 +18,7 @@
 - [Activity Lifecycle](Android/activity-lifecycle.md)
 - [ANR](Android/anr-error.md)
 - [Context](Android/context.md)
+- [Doze Mode](Android/doze-mode.md)
 - [Lopper](Android/lopper.md)
 - [Thread](Android/thread.md)
 - [BottomSheet Code](Android/UI/bottom-sheet-code.md)
