@@ -4,8 +4,9 @@
 ### Category
 * [Algorithm](#Algorithm)
 * [Android](#Android)
-* [Design Pattern](#Design-Pattern)
+* [Data Structure](#Data-Structure)
 * [Database](#Database)
+* [Design Pattern](#Design-Pattern)
 * [Kotlin](#Kotlin)
 
 ---
@@ -23,10 +24,13 @@
 - [Thread](Android/thread.md)
 - [BottomSheet Code](Android/UI/bottom-sheet-code.md)
 
+### Data Structure
+- [Simple linked list](Data-Structure/simple-linked-list.md)
+
 ### Database
 - [MySQL Query Summary](Database/mysql-query-statement-summary.md)
 
-### Design-Pattern
+### Design Pattern
 - [Adapter Pattern](Design-Pattern/adapter-pattern.md)
 - [Composite Pattern](Design-Pattern/composite-pattern.md)
 - [Facade Pattern](Design-Pattern/facade-pattern.md)
