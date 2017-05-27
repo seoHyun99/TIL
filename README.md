@@ -4,11 +4,11 @@
 ### Category
 * [Algorithm](#Algorithm)
 * [Android](#Android)
-* [Data Structure](#Data Structure)
+* [Data Structure](#Data-Structure)
 * [Database](#Database)
-* [Design Pattern](#Design Pattern)
+* [Design Pattern](#Design-Pattern)
 * [Kotlin](#Kotlin)
-* [Software Architecture](#Software Architecture)
+* [Software Architecture](#Software-Architecture)
 
 ---
 
@@ -44,5 +44,5 @@
 ### Kotlin
 - [Kotlin Grammar](Kotlin/Kotlin-grammar.md)
 
-#Software Architecture
+### Software Architecture
 - [REST](Software-Architecture/rest.md)
