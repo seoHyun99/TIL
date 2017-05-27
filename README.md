@@ -2,13 +2,13 @@
 > Today I Learned : 오늘 내가 공부한 부분을 기록하고 정리하는 repo입니다.
 
 ### Category
-* [Algorithm](#Algorithm)
-* [Android](#Android)
-* [Data Structure](#Data-Structure)
-* [Database](#Database)
-* [Design Pattern](#Design-Pattern)
-* [Kotlin](#Kotlin)
-* [Software Architecture](#Software-Architecture)
+* [Algorithm](#algorithm)
+* [Android](#android)
+* [Data Structure](#data-structure)
+* [Database](#database)
+* [Design Pattern](#design-Pattern)
+* [Kotlin](#kotlin)
+* [Software Architecture](#software-architecture)
 
 ---
 
