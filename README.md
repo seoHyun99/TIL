@@ -18,6 +18,7 @@
 ### Android
 - [Activity Lifecycle](Android/activity-lifecycle.md)
 - [ANR](Android/anr-error.md)
+- [Broadcast Receiver](Android/broadcast-receiver.md)
 - [Context](Android/context.md)
 - [Doze Mode](Android/doze-mode.md)
 - [Lopper](Android/lopper.md)
