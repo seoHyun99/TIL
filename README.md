@@ -44,6 +44,7 @@
 
 ### Java
 - [Difference about == and equals()](Java/==,equals.md)
+- [Initialize array](Java/initialize-array.md)
 
 ### Kotlin
 - [Kotlin Grammar](Kotlin/Kotlin-grammar.md)
