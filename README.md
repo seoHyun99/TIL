@@ -44,8 +44,10 @@
 
 ### Java
 - [Difference about == and equals()](Java/==,equals.md)
-- [Initialize array](Java/initialize-array.md)
 - [Collection](Java/collection.md)
+- [Comparing class about String](Java/comparing-class-about-string.md)
+- [How HashMap works in java](Java/how-hashmap-works-in-java.md)
+- [Initialize array](Java/initialize-array.md)
 
 ### Kotlin
 - [Kotlin Grammar](Kotlin/Kotlin-grammar.md)
