@@ -9,6 +9,7 @@
 * [Design Pattern](#design-Pattern)
 * [Java](#java)
 * [Kotlin](#kotlin)
+* [Socket](#socket)
 * [Software Architecture](#software-architecture)
 
 ---
@@ -25,6 +26,11 @@
 - [Doze Mode](Android/doze-mode.md)
 - [Lopper](Android/lopper.md)
 - [Thread](Android/thread.md)
+
+#### Android/Library
+- [ScalableLayout](Android/Library/ScalableLayout.md)
+
+#### Android/UI
 - [BottomSheet Code](Android/UI/bottom-sheet-code.md)
 
 ### Data Structure
@@ -51,6 +57,11 @@
 
 ### Kotlin
 - [Kotlin Grammar](Kotlin/Kotlin-grammar.md)
+
+### Network
+
+#### Network/Socket
+- [Definition of Socket](Network/Socket/definition-of-socket.md)
 
 ### Software Architecture
 - [REST](Software-Architecture/rest.md)
