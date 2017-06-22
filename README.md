@@ -59,6 +59,7 @@
 - [Kotlin Grammar](Kotlin/Kotlin-grammar.md)
 
 ### Network
+- [Definition of network](Network/definition-of-network.md)
 
 #### Network/Socket
 - [Definition of Socket](Network/Socket/definition-of-socket.md)
