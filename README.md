@@ -12,7 +12,7 @@
 * [Socket](#socket)
 * [Software Architecture](#software-architecture)
 
----
+----
 
 ### Algorithm
 - [Big O](Algorithm/big-o-notation.md)
