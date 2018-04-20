@@ -17,41 +17,43 @@
 
 ### 소스 코드
 
-    public class DfsAmTest {
+```java
+public class DfsAmTest {
 
-        static int[][] adjacencyMatrix; // 인접행렬
-        static boolean[] isVisits; // 정점의 방문 확인
-        static int vCount; // 정점의 수
-        static int eCount; // 간선의 수
+    static int[][] adjacencyMatrix; // 인접행렬
+    static boolean[] isVisits; // 정점의 방문 확인
+    static int vCount; // 정점의 수
+    static int eCount; // 간선의 수
 
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-            vCount = scanner.nextInt();
-            eCount = scanner.nextInt();
+        vCount = scanner.nextInt();
+        eCount = scanner.nextInt();
 
-            adjacencyMatrix = new int[vCount][vCount];
-            isVisits = new boolean[vCount];
+        adjacencyMatrix = new int[vCount][vCount];
+        isVisits = new boolean[vCount];
 
-            // 간선 입력 받기
-            for(int i = 0; i < eCount; i++) {
-                int t1 = scanner.nextInt();
-                int t2 = scanner.nextInt();
+        // 간선 입력 받기
+        for(int i = 0; i < eCount; i++) {
+            int t1 = scanner.nextInt();
+            int t2 = scanner.nextInt();
 
-                adjacencyMatrix[t1-1][t2-1] = 1;
-            }
-
-            dfs(1);
+            adjacencyMatrix[t1-1][t2-1] = 1;
         }
 
-        public static void dfs(int v){
-            isVisits[v-1] = true;
+        dfs(1);
+    }
 
-            for(int i=1 ;i <= vCount; i++) {
-                if(adjacencyMatrix[v-1][i-1] == 1 && !isVisits[i-1]) {
-                    System.out.println(v + " 에서 " + i + " 로 이동");
-                    dfs(i);
-                }
+    public static void dfs(int v){
+        isVisits[v-1] = true;
+
+        for(int i=1 ;i <= vCount; i++) {
+            if(adjacencyMatrix[v-1][i-1] == 1 && !isVisits[i-1]) {
+                System.out.println(v + " 에서 " + i + " 로 이동");
+                dfs(i);
             }
         }
     }
+}
+```
